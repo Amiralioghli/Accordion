@@ -57,7 +57,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   color: #555;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s;
 }
 
 .content-container.active .question::after {
@@ -70,7 +70,7 @@ body {
   padding: 0 15px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1.3s ease;
+  transition: 0.5s;
   color: #444;
 }
 
